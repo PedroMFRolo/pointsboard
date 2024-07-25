@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    border: 10px solid white;
+    border-radius: 10px;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+h3{
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    color: #EEEEEE;
+}
+
+#right-score, #left-score{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    width: 155px;
+    height: 120px;
+    background-color: black; /* Added background color for visibility */
+    border-radius: 5px;
+    color: #F94F6D;
+    
+}
+.container-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 30px;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    width: 200px;
+    height: 60px;
+    background-color: black; /* Added background color for visibility */
+    border-radius: 5px;
+    color: #F94F6D;
+}
+
+.left-btns, .right-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center content vertically */
+    width: 155px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.plus-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 6px;
+    background-color: #1B244A;
+    color: #9AABD8;;
+    margin-top: 40px;
+
+}
+
+.reset-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    border: none;
+    background-color: pink; /* Adjust the background color as needed */
+    border-radius: 50%; /* Makes the button circular */
+    cursor: pointer;
+    outline: none;
+    margin: 100px;
+}
+
+.reset-btn .emoji {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%; /* Ensures the emoji takes full width of the button */
+    height: 50%; /* Ensures the emoji takes full height of the button */
+    font-size: inherit; /* Inherit font size from button */
+}
+
+.reset-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    border: none;
+    background-color: pink; /* Adjust the background color as needed */
+    border-radius: 50%; /* Makes the button circular */
+    cursor: pointer;
+    outline: none;
+    margin: 100px;
+}
